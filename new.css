@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(13, 19, 33);
+  font-family: 'Azeret Mono', sans-serif;
+
+  font-weight: 800;
+
+  letter-spacing: 0%;
+}
+
+/*header */
+.upper9 {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.download {
+  padding: 17px 24px 17px 24px;
+  border-radius: 8px;
+  border: 1px solid rgb(13, 19, 33);
+  background-color: white;
+}
+
+/* First section */
+.firstSection {
+  background-image: url(Hero-bg.png);
+  width: 100%;
+  height: 652px;
+}
+
+.forColor{
+    color: white;
+}
+
+.boyPic {
+  width: 100%;
+  height: 582px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  display: flex;
+  padding: 100px;
+}
+
+.contact {
+  border-radius: 8px;
+  padding: 21px 24px 21px 24px;
+  background: rgb(13, 19, 33);
+  color: white;
+  font-size: larger;
+}
+
+/* Second Section */
+.secsec {
+  padding: 80px 97px 80px 97px;
+}
+
+.why {
+  text-align: center;
+}
+
+.textDeg {
+  opacity: 0.5;
+}
+
+.working,
+.working2,
+.working3 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.Learn {
+  width: 150px;
+  height: 48px;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+  margin: 32px 0px;
+}
+
+.sitting {
+  padding-left: 10px;
+}
+
+/*third section */
+
+.thrdsec {
+  width: 100%;
+  height: 777px;
+  text-align: center;
+}
+
+.newtext {
+  opacity: 0.6;
+  padding-top: 30px;
+}
+
+.zero {
+  width: 80%;
+  height: 614px;
+  padding-top: 50px;
+}
+
+/*forth section */
+
+.target1 {
+  text-align: center;
+  width: 100%;
+  height: 600px;
+}
+
+.newtext {
+  opacity: 0.6;
+  padding-top: 30px;
+}
+
+.logos {
+  padding-top: 48px;
+  display: flex;
+  text-align: center;
+  padding: 40px;
+}
+
+.front {
+  position: static;
+  width: 364px;
+  height: 300px;
+}
+
+.pad {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.front1,
+.front2,
+.front3 {
+  position: static;
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 0px 24px;
+}
+
+.front1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.front2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.front3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+
+
+/* fifth section */
+.next-target {
+  text-align: center;
+  width: 100%;
+  height: 871px;
+}
+
+.mytar{
+  padding-bottom: 20px;
+}
+
+.target {
+  display: flex;
+  justify-content: left;
+  border-radius: 10px;
+  width: 1280px;
+  height: 220px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding-top: 50px;
+  margin-left: 90px;
+}
+
+.react {
+  width: 80%;
+  height: 108px;
+  padding-bottom: 50px;
+  width: 70%;
+  height: 70%;
+  margin: 0px 24px;
+}
+
+.mongo {
+  width: 200%;
+  height: 100%;
+  padding-bottom: 50px;
+  width: 70%;
+  height: 70%;
+  margin: 0px 24px;
+}
+
+.react-text,
+.node-text {
+  text-align: left;
+}
+
+.targets {
+  padding: 20px;
+}
+
+.newlearn {
+  text-decoration: underline;
+  box-sizing: nobox;
+}
+
+/* sixth section */
+
+
+.handshake {
+  padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  width: 1140px;
+  height: 354px;
+  margin-left: 180px;
+  background-image: url(/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.supp {
+  color: white;
+  padding-bottom: 30px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.place {
+    width: 548px;
+    height: 57px;
+ text-align: center;
+  border-radius: 24px;
+  padding: 28px;
+  padding-top: 34px;
+
+}
+
+.submit1{
+   
+    width: 120px;
+height: 58px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    
+  }
+
+  .foot{
+    display: reflex;
+    background-color: rgba(13, 19, 33, 0.03);
+    flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-top: 50px;
+padding-bottom: 20px;
+
+
+  }
+
+.foot-c{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 180px;
+    padding: 10px, 20px;
+
+}
+
+.another{
+    padding-left: 150px ;
+}
